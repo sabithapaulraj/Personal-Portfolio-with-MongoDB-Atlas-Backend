@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background:  #a8c0ff;
+
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Navbar */
+.navbar {
+    background-color: #a8c0ff; /* Global color */
+    color: white; /* White text for contrast */
+    padding: 15px 30px;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 2px solid #8a9bff; /* Slightly darker shade for border */
+}
+
+/* Optional: Navbar links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Change link color on hover */
+.navbar a:hover {
+    color: #3f2b96; /* Darker color on hover */
+}
+

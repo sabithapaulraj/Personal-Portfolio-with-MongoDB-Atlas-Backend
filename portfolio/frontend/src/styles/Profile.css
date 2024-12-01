@@ -1,0 +1,95 @@
+/* Profile Container Styling */
+.profile-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    background: #DCE9F9;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile Header Styling */
+.profile-header {
+    margin-top: -70px;
+}
+
+/* Profile Photo */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #f0f0f0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Name */
+.profile-name {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 20px 0 10px;
+    color: #333;
+}
+
+/* Profile Bio */
+.profile-bio {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin: 10px 0 20px;
+}
+
+/* Profile Links */
+.profile-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Button Styling for Links */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+/* LinkedIn Button */
+.btn-linkedin {
+    background: linear-gradient(45deg, #0072b1, #005682);
+}
+
+.btn-linkedin:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(45deg, #005682, #003c5f);
+}
+
+/* GitHub Button */
+.btn-github {
+    background: linear-gradient(45deg, #333, #666);
+}
+
+.btn-github:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(45deg, #222, #444);
+}
+
+/* Loading and Error Styling */
+.loading, .error {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #777;
+    margin: 20px 0;
+}

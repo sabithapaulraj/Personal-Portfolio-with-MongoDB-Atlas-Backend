@@ -1,0 +1,78 @@
+/* Container for the projects section */
+.projects-container {
+    padding: 2rem;
+    border-radius: 2rem;
+    min-height: 100vh;
+}
+
+/* Title of the projects section */
+.projects-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Grid layout for project cards */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+}
+
+/* Individual project card styling */
+.project-card {
+    background:#DCE9F9;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Hover effect for cards */
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Project title styling */
+.project-title {
+    font-size: 1.8rem;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Project description styling */
+.project-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+/* Technologies styling */
+.project-technologies {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+/* Status styling */
+.project-status,
+.project-duration {
+    font-size: 1rem;
+    color: #444;
+}
+
+/* No projects message */
+.no-projects {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+    font-style: italic;
+}
